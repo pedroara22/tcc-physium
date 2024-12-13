@@ -20,4 +20,3 @@ O simulador foi desenvolvido em JavaScript e utiliza a biblioteca Matter.js para
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-```
