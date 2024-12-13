@@ -13,7 +13,7 @@ npm run dev
 ```
 
 ## Utilização
-Para utilizar o simulador, basta acessar o endereço `http://localhost:1234` no navegador. O simulador possui uma interface simples que permite adicionar corpos rígidos e corpos flexíveis, além de configurar a simulação.
+Para utilizar o simulador, basta acessar o endereço `http://localhost:5173` no navegador. O simulador possui uma interface simples que permite adicionar corpos rígidos e corpos flexíveis, além de configurar a simulação.
 
 ## Desenvolvimento
 O simulador foi desenvolvido em JavaScript e utiliza a biblioteca Matter.js para simulação das colisões. O código fonte do simulador está disponível no diretório `src`.
