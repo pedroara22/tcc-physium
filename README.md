@@ -1,8 +1,23 @@
-# React + Vite
+TCC Phisium Simulador de colisões
+===============================
+O TCC Phisium é um simulador de colisões que tem como objetivo simular colisões entre corpos rígidos e corpos flexíveis. O simulador foi desenvolvido em JavaScript e utiliza a biblioteca Matter.js para simulação das colisões.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instalação
+Para instalar o simulador, basta clonar o repositório e rodar o comando `npm install` para instalar as dependências.
 
-Currently, two official plugins are available:
+```bash
+git clone https://github.com/pedroara22/tcc-physium.git
+cd tcc-physium
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Utilização
+Para utilizar o simulador, basta acessar o endereço `http://localhost:1234` no navegador. O simulador possui uma interface simples que permite adicionar corpos rígidos e corpos flexíveis, além de configurar a simulação.
+
+## Desenvolvimento
+O simulador foi desenvolvido em JavaScript e utiliza a biblioteca Matter.js para simulação das colisões. O código fonte do simulador está disponível no diretório `src`.
+
+## Licença
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+```
