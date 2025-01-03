@@ -27,9 +27,19 @@ function App() {
   return (
     <div className="App">
       <h1>Physics</h1>
-      <button onClick={resetWorld}>Reset</button>
-      <button onClick={() => engine.addBody()}>Add Body</button>
-      <button onClick={() => engine.option=='addSquare'?engine.changeOption("addSquare"):engine.changeOption("moveItem")}>Add Square</button>
+      
+      <div id="canva">
+
+      </div>
+      <div id="buttonsArea">
+        <div id="buttonDiv"><button onClick={resetWorld}>Reset</button></div>
+        <div id="buttonDiv"><button onClick={() => engine.changeOption("addSquare")}>Add Square</button></div>
+        <div id="buttonDiv"><button onClick={() => engine.changeOption("addElipse")}>Add Circle</button></div>
+        <div id="buttonDiv"><button onClick={() => engine.pause()}>Pause</button></div>
+        <div id="buttonDiv"><button onClick={() => engine.play()}>Play</button></div>
+        <div id="buttonDiv"></div>
+      </div>
+      <h1>Canvas</h1>
     </div>
   );
 }

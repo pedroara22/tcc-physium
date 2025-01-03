@@ -1,8 +1,14 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   text-align: center;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -39,4 +45,19 @@
 
 .read-the-docs {
   color: #888;
+}
+button{
+  padding: 1em 2em;
+  margin: 1em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #646cff;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+#buttonsArea{
+  display: flex;
+  justify-content: center;
 }
