@@ -1,4 +1,4 @@
-import Engine from './components/engine';
+import Engine from './components/engine/engine';
 import './App.css';
 import { useEffect } from 'react';
 
@@ -25,22 +25,32 @@ function App() {
 
 
   return (
-    <div className="App">
-      <h1>Physics</h1>
-      
+    <main id='creator'>
       <div id="canva">
 
       </div>
       <div id="buttonsArea">
-        <div id="buttonDiv"><button onClick={resetWorld}>Reset</button></div>
+        <div>
+        <div id="buttonDiv"><button onClick={() => engine.changeOption("selectBody")}>Select Body</button></div>
         <div id="buttonDiv"><button onClick={() => engine.changeOption("addSquare")}>Add Square</button></div>
         <div id="buttonDiv"><button onClick={() => engine.changeOption("addElipse")}>Add Circle</button></div>
+
+        </div>
+        <div>
         <div id="buttonDiv"><button onClick={() => engine.pause()}>Pause</button></div>
         <div id="buttonDiv"><button onClick={() => engine.play()}>Play</button></div>
-        <div id="buttonDiv"></div>
+        <div id="buttonDiv"><button onClick={() => engine.changeOption("moveItem")}>Move Item</button></div>
+        
+        </div>
+        <div>
+          <div id="buttonDiv"><button onClick={() => engine.reset()}>MISA</button>
+          <div id="buttonDiv"><button onClick={() => engine.pinBodies()}>Pin Bodies</button></div>
+          <div id="buttonDiv"><button onClick={() => engine.setBodyStatic()}>Set angle</button></div>
+        </div>
+        
+        </div>
       </div>
-      <h1>Canvas</h1>
-    </div>
+    </main>
   );
 }
 

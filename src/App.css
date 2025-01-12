@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0;
-  padding: 2rem;
   text-align: center;
 }
 *{
@@ -53,11 +52,36 @@ button{
   border-radius: 0.5em;
   background-color: #646cff;
   color: white;
-  font-size: 1em;
+  font-size: 0.5em;
   cursor: pointer;
   transition: background-color 300ms;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
 }
 #buttonsArea{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 20vw;
+}
+#buttonsArea div{
+  display: flex;
+  justify-content: center;
+}
+main#creator{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  overflow: hidden;
 }

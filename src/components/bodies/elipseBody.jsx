@@ -7,14 +7,11 @@ export default class ElipseBody {
 
     let vertices = [];
 
-    for (let i = 0; i < 360; i += 10) {
+    for (let i = 0; i < 360; i += 5) {
       const x = Math.cos(i) * xv + startPos.x + xv;
       const y = Math.sin(i) * yv + startPos.y + yv;
       vertices.push({ x: x, y: y });
     }
-    
-
-
     return Bodies.fromVertices(startPos.x+xv, startPos.y+yv, vertices, { isStatic: isStatic });
   }
 }
