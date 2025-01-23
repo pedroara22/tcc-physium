@@ -1,6 +1,6 @@
 TCC Physium Simulador de colisões
 ===============================
-O TCC Phisium é um simulador de colisões que tem como objetivo simular colisões entre corpos rígidos e corpos flexíveis. O simulador foi desenvolvido em JavaScript e utiliza a biblioteca Matter.js para simulação das colisões.
+O TCC Physium é um simulador de colisões que tem como objetivo simular colisões entre corpos rígidos e corpos flexíveis. O simulador foi desenvolvido em JavaScript e utiliza a biblioteca Matter.js para simulação das colisões.
 
 ## Instalação
 Para instalar o simulador, basta clonar o repositório e rodar o comando `npm install` para instalar as dependências.
